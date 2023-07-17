@@ -2,5 +2,5 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def helloWorld():
+def hello_world():
     return "Hello, simple Flask Application"
